@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MapViewController.h
 //  CodeChallenge3
 //
 //  Created by Vik Denic on 10/16/14.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DivvyBikeStation.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface MapViewController : UIViewController
+@property DivvyBikeStation *station;
 @end
